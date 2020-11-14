@@ -1,0 +1,9 @@
+./Debug/chaos_nvidia -g ./generator_settings.txt ./original_gamma
+./Debug/chaos_nvidia -t 88 a8 ./initial_data
+./Debug/chaos_nvidia -e 3f768871 ./initial_data
+./Debug/chaos_nvidia -p 11 ./gamma_11_f ./gamma_12
+./Debug/chaos_nvidia -f ./gamma_12 ./gamma_12_f
+
+3700000000
+1401661064
+
